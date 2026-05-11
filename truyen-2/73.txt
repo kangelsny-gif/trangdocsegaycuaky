@@ -1,0 +1,176 @@
+Chương 72
+
+
+Vu Gia Hựu vừa gõ bàn phím vừa chửi ầm lên: "Nếu để tôi biết thằng leaker mất dạy nào leak phiên bản mới, tôi nhất định sẽ bắt nó đi diễu phố thị chúng! Đù mẹ nó, nội dung đều đã bị tung lên diễn đàn rồi, nếu buổi họp báo không hoãn lại, chúng ta lên đó nói cái gì, diễn hài chắc?"
+
+Trì Hạo phụ họa: "Ây dô, ngài nói đúng rồi đấy!"
+
+Đường Hạ nói với vẻ tiều tụy: "Ít nhất cũng còn chừa lại cho chúng ta một cái PV quảng cáo."
+
+"Được rồi." Tống Thước giọng bình tĩnh, "Lát nữa 3 giờ các bộ phận họp thêm một lần nữa."
+
+Toàn bộ Hyper Studio đều bận rộn đến tối tăm mặt mũi, không chỉ phải tung ra nội dung mới, giữ chân sự mới mẻ của người chơi, mà còn phải đối phó với cuộc khủng hoảng dư luận sau khi phiên bản bị leak ra. Tài nguyên phát triển vốn đầu tư vào 'Thiền Nhận' bị phân tán, thời gian ra mắt phiên bản thử nghiệm có lẽ cũng sẽ bị trì hoãn.
+
+Với tư cách là CEO, trách nhiệm của Tống Thước là không thể thoái thác, công việc tiếp theo cũng phải theo dõi sát sao, đã hai ngày không được nghỉ ngơi tử tế.
+
+Vì vậy, 5 giờ chiều, sau khi kết thúc cuộc họp, Tống Thước khó khăn lắm mới trở về văn phòng nghỉ ngơi, lúc này mới nhìn thấy tin nhắn Ninh Giác gửi đến.
+
+【Bảo bối】: Anh khi nào về nhà?
+
+【Bảo bối】: Chúng ta nói chuyện đi, em có chuyện muốn nói trực tiếp với anh.
+
+Động tác của Tống Thước dừng lại, nhìn chằm chằm vào hai dòng chữ đó.
+
+Ninh Giác nói chuyện, luôn có một giọng điệu không mấy đứng đắn, vui vẻ, nói "Anh ơi, em muốn ăn bánh cuộn matcha ngọc bích", "Tối nay chúng ta ăn gì, đói quá", không hề tiếc rẻ sử dụng dấu chấm than và biểu tượng cảm xúc, sự trang trọng hiếm thấy như vậy, càng giống như một lời báo trước cho một cuộc đàm phán chính thức.
+
+Một dự cảm chẳng lành ùa về, Tống Thước nghe rõ, tim mình "thịch" một tiếng.
+
+Tống Thước mở phần mềm giám sát. Do trước khi ra ngoài quên vén tấm giẻ lau, màn hình bị che khuất bởi bóng đen, hoàn toàn không nhìn rõ. Đột nhiên có tiếng gõ cửa, thế là Tống Thước tắt phần mềm.
+
+Vu Gia Hựu bước vào, ném tập tài liệu lên bàn anh: "Bộ phận pháp lý đã xác định được nguồn phát tán, bộ phận kỹ thuật cũng đang triển khai chương trình ngắt mạch, ba nguồn phát tán, hai nguồn đều là tài khoản thử nghiệm của công ty gia công lần trước——Đệt mẹ, thỏa thuận bảo mật rồi mà còn dám làm thế này."
+
+"Trước tiên cố định bằng chứng đã." Tống Thước nói, "Đợi bộ phận quan hệ công chúng chuẩn bị xong thông cáo chính thức, mới gửi thư cho luật sư sau."
+
+Vu Gia Hựu giơ tay làm dấu "OK", cậu cũng đã thức trắng đêm, người ngợm không thoải mái, thuận tay lấy quả táo trên bàn Tống Thước, lau vỏ qua loa rồi nhét vào miệng, đồng thời nói úp mở: "Chúng ta xui tới thế là cùng, sớm không leak, muộn không leak, cứ đúng lúc còn một tuần nữa là đến buổi họp báo mới leak, có cảm giác số tôi sinh ra là để tăng ca vậy."
+
+Vừa nói vừa kéo chiếc ghế bên cạnh ngồi xuống: "Đối tượng của tôi hai hôm trước còn cãi nhau với tôi, đòi chia tay với tôi nữa cơ." Cậu không cẩn thận bị sặc, rút một tờ giấy ăn ho khan hai tiếng, không hề nhận ra vẻ mặt cứng đờ của Tống Thước, tiếp tục nói, "Kết quả thấy tôi thảm hại như vậy, lập tức chu đáo hẳn, tối nay còn nói mang cơm tình yêu cho tôi nữa."
+
+Cậu ném lõi táo vào thùng rác, khoe khoang: "Ôi chao, anh bạn, cơm tình yêu của cậu đâu?"
+
+Tống Thước đột nhiên mở lời: "Cái đó."
+
+Đối với Tống Thước mà nói, đây là một lời mở đầu hiếm thấy, thể hiện sự do dự. Vu Gia Hựu rửa tai lắng nghe.
+
+Tống Thước: "Đối tượng của cậu mỗi lần trước khi đề nghị chia tay với cậu, đều sẽ nói gì với cậu?"
+
+Vu Gia Hựu: "Cậu đúng là biết cách nói chuyện đấy."
+
+Nhưng thấy Tống Thước thành tâm hỏi han, vẫn ban cho lời chỉ giáo: "Đã đề nghị chia tay rồi, còn có thể nói gì? Nói 'Anh có bệnh à', 'Sao anh không trả lời tin nhắn của em', 'Cả đời này em không muốn gặp lại anh nữa', hoặc là xóa chặn một lèo, cảm xúc bình tĩnh rồi thì còn có thể nói chuyện tử tế."
+
+Cậu bắt đầu bắt chước, làm mặt lạnh, ngoắc ngoắc ngón tay: "Nào, lại đây, chúng ta nói chuyện——Cậu nói xem, cậu có lỗi không?"
+
+Nói xong cười ha hả, sau khi nhìn thấy sắc mặt rõ ràng khó coi của Tống Thước, tiếng cười từ từ yếu đi, Vu Gia Hựu kinh hãi thất sắc: "Vãi cả l, anh bạn, cậu bị đá?!"
+
+"Không có." Tống Thước lập tức phủ nhận, hoàn toàn là cố gắng giữ bình tĩnh, bàn tay nắm chặt cây bút máy cũng đang bất giác dùng sức, "Tôi chỉ là thuận miệng hỏi thôi."
+
+Vừa hay có người gõ cửa, là thành viên trong nhóm của Vu Gia Hựu, hỏi ý kiến cậu về các vấn đề liên quan đến tài liệu quan hệ công chúng, Vu Gia Hựu đành phải rời đi trước, vỗ vai anh, ánh mắt thương hại: "Đừng nản lòng, nói chuyện cho tốt, chia tay rồi cũng có thể quay lại mà."
+
+Đợi cửa đóng lại, Tống Thước buông cây bút máy, dựa vào lưng ghế, một lúc lâu không động đậy. Một người đang yêu dù có ngốc nghếch đến đâu, cũng nên từ những lời lẽ đột ngột của đối phương sau khi phạm lỗi, mà hiểu được ẩn ý đằng sau.
+
+Nỗi hoảng sợ sắp mất đi, như thể cơ thể bị nhấn chìm trong biển cả, nước đè nén ngũ tạng lục phủ, đến nỗi hô hấp không thông.
+
+Hình như muộn rồi——những lời thật lòng, những lời qua loa, đều đã nói hết một lượt, nhưng vẫn là một lời xin lỗi không đạt chuẩn, chiếc nơ bướm thắt rất xấu, sự thật về những bữa cơm cũng đã bị vạch trần. Dù trong những lời nói dối có xen lẫn một chút sự thật, cũng vẫn là muộn rồi.
+
+Tống Thước nên biết, mình có bao nhiêu khuyết điểm. Tính cách khó chiều lại không thẳng thắn không đủ hoàn thiện, nói năng quá sắc bén, dù có lý hay không có lý cũng không chịu nhường nhịn, ham muốn kiểm soát quá mạnh, lại còn rất nhỏ nhen. Một Ninh Giác dù có tính tình tốt đến đâu, sau khi bị ép ném vỡ máy ảnh, cũng khó tránh khỏi thất vọng, cậu không có lý do gì để luôn bao dung Tống Thước nữa.
+
+Cậu không cần máy ảnh, cũng kéo theo đó là không cần Tống Thước nữa.
+
+Hơn nữa 2 hôm nay, sự việc bị leak phiên bản mới, đã lan truyền rộng rãi trên mạng, Ninh Giác chắc chắn đã nhìn thấy. Nếu xử lý không tốt, hình ảnh thương hiệu bị tổn hại, doanh thu công ty giảm sút, đến lúc đó Tống Thước cũng không còn vốn liếng để giam cầm Ninh Giác nữa, đề nghị vào lúc này, quả thực là thời cơ tốt nhất.
+
+Nghĩ lại một chút, Tống Thước ép mình bình tĩnh, chắc chắn có cách.
+
+Tuy nhiên sau 2 ngày quay cuồng ở công ty, một Tống Thước thiếu ngủ trầm trọng, dưới tình trạng quá tải áp lực, ngay cả việc suy nghĩ bình thường cũng khó khăn, huống chi là nhanh chóng nghĩ ra một đối sách vẹn toàn, có thể giữ chân Ninh Giác 100%.
+
+Khoảng gần 1 tiếng sau, Tống Thước trả lời: Hai hôm nay không về.
+
+【Bảo bối】: Bận đến thế à?
+
+【Bảo bối】: Thôi được, vậy anh đừng vất vả quá, đợi anh về nhà rồi nói sau.
+
+Không nghĩ ra được đối sách, chỉ có thể tạm thời trì hoãn thời gian gặp mặt, tự lừa dối mình mà trì hoãn.
+
+Thế là hôm đó, Tống Thước vẫn ở lại công ty, tranh thủ mở camera giám sát, một đoạn nhỏ phía dưới màn hình lộ ra, có thể chiếu đến một góc sofa. Anh nhìn thấy cẳng chân Ninh Giác đặt lên tay vịn sofa, chân khua khoắng, ngoài ra, không nhìn thấy gì cả, cũng chỉ có thể nghe thấy tiếng ồn ào của chương trình tạp kỹ trên TV, rất thoải mái tự tại.
+
+Buổi chiều, nhóm WeChat của chủ nhà hiện lên một tin nhắn: Do khu vực lân cận sửa chữa đường, tối nay từ 11 giờ đến 6 giờ sáng mai sẽ mất điện, mong các chủ nhà chuẩn bị trước.
+
+Khoảng thời gian này thường là thời gian ngủ của Ninh Giác, không ảnh hưởng nhiều. Nhưng để đề phòng bất trắc, Tống Thước vẫn chuyển tiếp cho Ninh Giác, để nhắc nhở.
+
+【Tống Thước】: [Chuyển tiếp tin nhắn nhóm] Ngủ sớm đi.
+
+【Tống Thước】: Tối nay tôi không về nhà.
+
+Còn chưa thoát khỏi giao diện trò chuyện, đã hiện lên nội dung trả lời của Ninh Giác. Một đoạn ghi âm 4 giây, Tống Thước đắn đo do dự, sau khi chuẩn bị tâm lý đầy đủ, mới từ từ nhấn mở, nghe thấy giọng hơi méo mó, có chút phàn nàn của Ninh Giác, trước tiên kéo dài giọng nói một câu "Thôi được", kế đến hỏi "Sao anh vẫn chưa về?"
+
+Dường như một khắc cũng không đợi được nữa, không muốn lãng phí thêm một chút thời gian nào với một Tống Thước tệ hại đến cực điểm nữa.
+
+Tống Thước tắt màn hình điện thoại, không trả lời.
+
+Tối hôm đó là bữa tiệc với nhà đầu tư.
+
+Dù sao sự kiện bị leak phiên bản mới này ầm ĩ quá lớn, phải có lời giải thích với họ. Chỉ là bữa tiệc không mấy vui vẻ, đối phương liên tục chất vấn, lời lẽ không chút khách khí: "Hợp tác quan trọng nhất là sự tin tưởng, các cậu ngay cả game của mình cũng không giữ được, phiên bản mới lại ra mắt, thị phần ước tính cũng khó mà giữ. Sau này tiền vốn, kế hoạch kinh doanh, chúng tôi làm sao dám tin tưởng studio của các cậu?"
+
+"Lần này quả thực là sơ suất của chúng tôi, sau này sẽ cung cấp phương án chấn chỉnh, các dự án sau cũng sẽ được đồng bộ hóa định kỳ." Tống Thước nói, "Tôi đảm bảo, đợi đến lúc chính thức ra mắt, doanh thu tháng đầu tiên sẽ không thấp hơn 85% so với kế hoạch ban đầu."
+
+"Cậu đảm bảo? Người trẻ tuổi, miệng lưỡi toàn lời nói suông là không được đâu."
+
+Để trấn an nhà đầu tư, lại phải uống rượu đến tận đêm khuya, dù đã rèn luyện được tửu lượng, sau khi tiễn nhà đầu tư đi, Tống Thước vẫn choáng váng đầu óc . Ban ngày có một trận mưa nhỏ, mặt đất ẩm ướt, nhiệt độ thấp đóng băng cả mùi của đất, mùi lá cây, ngón tay cũng đông cứng đến chậm chạp, Tống Thước nhấn điện thoại hai cái, không có phản ứng, lúc này mới nhận ra đã hết pin.
+
+"Tôi gọi tài xế lái hộ cho cậu rồi." Vu Gia Hựu nói, "Về nhà mau nghỉ ngơi đi, đừng để phiên bản mới còn chưa kịp ra mắt trở lại, cơ thể đã gục ngã trước."
+
+Không thể về nhà——nhưng ma xui quỷ khiến thế nào, Tống Thước vẫn lên xe.
+
+Có lẽ quá mệt, không còn sức để nói lời từ chối. Hoặc có lẽ vì mấy hôm nay không gặp Ninh Giác. Huống hồ tối nay cúp điện, Tống Thước khó tránh khỏi lo lắng, một Ninh Giác bị quáng gà lỡ như không ngủ được, có sợ không. Dù sao cậu rất nhát gan, trước đây xem xong phim kinh dị cũng không ngủ được, phải gọi điện thoại cho Tống Thước.
+
+Lúc trở về căn hộ, đã gần 12 giờ.
+
+Phòng khách đã tối đen như mực, Tống Thước nhẹ nhàng đẩy cửa phòng ngủ chính, nghe thấy Ninh Giác đã ngủ say, hơi thở đều đặn kéo dài.
+
+Anh đến gần hơn một chút, mò mẫm tìm khuôn mặt Ninh Giác trong bóng tối, nhẹ nhàng vuốt ve hai cái, sợ mùi rượu quá nồng, làm ảnh hưởng đến Ninh Giác đang trong mơ, đang định rời khỏi phòng, thì đột nhiên nghe thấy một tiếng "Ưm" ngái ngủ.
+
+Ninh Giác một lần nữa tỉnh giấc giữa đêm, theo thói quen sờ sờ bên cạnh giường, sau đó lấy điện thoại ra, bật đèn pin, đang định ra phòng khách xem một chút, thì bất ngờ chiếu phải một đôi chân, sợ đến suýt nữa thì bất tỉnh nhân sự. Điện thoại rơi xuống đất, giúp Ninh Giác có thể nhìn rõ người trước mặt.
+
+"Anh ơi?" Ninh Giác bò dậy sau cơn kinh ngạc, "Anh về rồi ạ?"
+
+Thân hình Tống Thước cứng đờ: "Tôi... vừa mới ăn cơm xong."
+
+Mũi Ninh Giác ngửi ngửi: "Anh uống rượu?"
+
+"Uống một chút." Tống Thước không muốn nói nhiều: "Em ngủ tiếp đi, tôi đi rửa mặt trước."
+
+Sau đó như trốn chạy rời khỏi phòng ngủ chính, bước vào nhà vệ sinh, nhấn công tắc, mới nhớ ra tối nay cúp điện, nhưng không ảnh hưởng đến việc rửa mặt. Tống Thước cố ý kéo dài thời gian, đến cả đánh răng cũng muốn đánh từng chiếc một, tuy nhiên lúc trở về phòng ngủ chính, Ninh Giác không hề ngủ, cậu ngồi trên giường, đang chơi game xếp hình, nghe tiếng thấy động ngẩng đầu lên, đồng thời đặt điện thoại xuống: "Anh xong rồi ạ?"
+
+Tống Thước khựng lại: "Sao không ngủ?"
+
+"Không phải trước đây đã nói, đợi anh về nhà, chúng ta phải nói chuyện sao? Vừa hay em cũng không buồn ngủ." Ninh Giác cân nhắc lời lẽ, "Em nghĩ, giữa chúng ta—"
+
+"Tôi không muốn nghe."
+
+Tống Thước đột ngột lên tiếng. Ninh Giác sững người, cậu không nhìn rõ sắc mặt Tống Thước, nhất thời mờ mịt. Tống Thước cũng nhận ra giọng điệu của mình khác thường, vội vàng mở lời: "Tôi uống nhiều, uống thuốc giải rượu đã. Có chuyện gì mai hẵng nói."
+
+Nói xong liền đi thẳng ra khỏi phòng ngủ chính.
+
+Lúc sắp đến phòng khách, định bật đèn pin, mới nhớ ra điện thoại đã hết pin. Nhưng phía sau như có hồng thủy mãnh thú, Tống Thước không thể quay lại, chỉ dựa vào trí nhớ tìm ngăn kéo đựng hộp thuốc thường dùng. Thuốc giải rượu được đặt riêng trong một hộp nhỏ bên trái, Tống Thước mơ mơ màng màng sờ thấy hình dạng của một vỉ thuốc con nhộng, bóc ra một viên, không cần nước, nuốt khan xuống.
+
+Viên thuốc dính vào cổ họng, đầu lưỡi đắng ngắt, lúc Tống Thước lấy nước, nghe thấy tiếng bước chân Ninh Giác đi ra. Ánh sáng tròn vo, mờ ảo của đèn pin, chao đảo trên sàn nhà tiến lại gần, cộng với tiếng xích kéo lê sột soạt, như một tia sét sắp giáng xuống.
+
+Tống Thước vội vàng uống nước, giả vờ bận rộn, tuy nhiên Ninh Giác vẫn rất không có mắt nhìn mà mở lời: "Tối nay anh ở nhà ngủ, hay là—"
+
+Đột nhiên, không biết nhìn thấy gì, lời nói của Ninh Giác đột ngột dừng lại. Lúc mở lời lần nữa giọng điệu trở nên hoảng hốt, run rẩy: "Anh uống cái này?"
+
+Tống Thước nhìn theo ánh mắt của cậu, nhìn về phía vỉ thuốc con nhộng màu đỏ bên cạnh hộp thuốc, chậm chạp nhận ra mình vừa rồi đã uống nhầm thuốc, không phải thuốc giải rượu. Nhưng cũng không phải Cephalosporin, chỉ uống một viên liều nhỏ, cũng không sao.
+
+Tuy nhiên Ninh Giác mặt mày trắng bệch, nắm lấy cánh tay anh, sốt ruột hỏi: "Anh có thấy khó chịu trong người không, ví dụ như nổi mẩn đỏ, thấy ngứa?" Cậu hình như sợ hãi lắm, nói năng hỗn loạn, "Có... phản ứng dị ứng không?"
+
+Từ phản ứng khác thường của Ninh Giác, Tống Thước mơ hồ nhận ra điều gì đó, anh nhặt vỉ thuốc lên, trên vỏ thiếc ghi chữ tiếng nước ngoài——tiếng Pháp, hoặc tiếng Đức, không hiểu được, nhưng chắc chắn không phải thứ nên có trong hộp thuốc, anh hỏi Ninh Giác: "Cái này em mua?"
+
+Tiếp đó hỏi: "Thuốc gì vậy?"
+
+"Phải." Ninh Giác như sắp khóc, hoảng sợ, "......Là thuốc kích dục."
+
+Tai Tống Thước ù đi một tiếng, mấp máy môi, nhưng không nói nên lời. Anh nhìn chằm chằm vào vỉ thuốc đã trống hai viên, một lúc lâu sau khẽ hỏi: "Em uống rồi?"
+
+Tống Thước nhìn thấy Ninh Giác khó khăn gật đầu. Biên độ nhỏ như vậy, trong một khoảnh khắc, giống như rút cạn toàn bộ sức lực, toàn bộ nhiệt độ của Tống Thước, đầu ngón tay tê dại, suy nghĩ trống rỗng, chỉ nói: "Vậy à."
+
+"Chúng ta đến bệnh viện rửa ruột đi, nếu không đợi thuốc có tác dụng rồi, anh——"
+
+Tống Thước đột nhiên nói: "Hôm đó em và Phương Danh ở trong lớp nói chuyện, tôi đều nghe thấy cả rồi."
+
+Nhất thời, phòng khách như bị nhấn nút tắt tiếng, yên tĩnh đến mức chỉ nghe thấy tiếng thở của nhau, Tống Thước cụp mắt, nhìn thấy ánh sáng tròn vo, mờ ảo của đèn pin, chiếu lên ngón tay mình, đang khẽ run rẩy. Anh không thể kiểm soát, nhưng giọng điệu lại là bình thản: "Có một chuyện, tôi vẫn luôn rất muốn hỏi em."
+
+Tống Thước ngẩng đầu nhìn Ninh Giác, khó hiểu hỏi: "Làm tình với tôi, thật sự ghê tởm đến thế sao?"
+
+______________________________________
+
+📢 Tác giả có lời muốn nói:
+
+Màn thú nhận Action!
