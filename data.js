@@ -177,7 +177,7 @@ Lục Kỳ Miên gật đầu lia lịa, giơ tay tự tiến cử: “Tôi có 
     },
     "truyen-6": { 
         title: "Oán Cốt Phong Triền / Hận Cốt Mê Tình", 
-        cover: "truyen-6/cover.png", 
+        cover: "truyen-6/cover.jpg", 
         status: "done", 
         author: "Tuyệt Thế Nhất Căn Thông a 💕",
         genre: "Nguyên sang, Đam mỹ, Hiện đại, Linh dị thần quái, HE",
