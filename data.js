@@ -14,7 +14,7 @@ const DATA = {
         desc: `Chúc Tri Hi, 26 năm qua sống một cuộc đời muôn màu muôn vẻ, từ châu Phi đến Nam Cực, từ vác ba lô du lịch đến làm tình nguyện viên, tiêu chí là phải “lăn xả”. Thế nhưng một ngày nọ tỉnh dậy, cậu bỗng phát hiện ngay giữa lòng bàn tay xuất hiện một đồng hồ ngược sinh mệnh kỳ quái─
 60 ngày 0 giờ 0 phút 0 giây
 
-Tôi chỉ còn sống được 60 ngày thôi sao???
+Tôi chỉ còn sống được 60 ngày thôi sao????
 
 Vài hôm sau, cậu bị ép đi xem mắt. Đối tượng là một giáo sư khoa khảo cổ tính tình khô khan, một Alpha mặt đơ đẹp mã nhưng lạnh lùng như người tuyết.
 
