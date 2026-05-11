@@ -245,7 +245,7 @@ Bỗng nhiên có một ngày, nhân cách phụ biến mất.
     },
     "truyen-8": { 
         title: "Dư Uy", 
-        cover: "truyen-8/cover.jpeg", 
+        cover: "truyen-8/cover.jpg", 
         status: "done", 
         author: "Nhu Yếu Bảo Hộ Đích Nhân 💕",
         genre: "Nguyên sang, Đam mỹ, Hiện đại, HE, Tình cảm, Song khiết, ABO, Gương vỡ lại lành, Chủ thụ, 1v1, Mất trí nhớ, Độc miệng, A x O, Hỏa táng tràng",
