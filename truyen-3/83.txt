@@ -1,0 +1,204 @@
+【Mùa Hè Của Trẫm Và Tôi】 Điều Tra Một Vụ Án, Người Chết Chính Là Tôi (C83)
+
+
+Toki?
+
+Tôi không thể chờ đợi được mà bấm vào thư mục này, bên trong là một tài liệu .txt.
+
+Trong tài liệu không có gì khác, toàn màn hình là 0101010100101101. Đây là cái gì? Số nhị phân?
+
+Tôi đá chân vào bàn một cái, chiếc ghế đột ngột trượt ra sau. Tôi cố gắng nhìn từ xa xem có manh mối gì không, hơi giống nguyên lý dùng vô số ảnh nhỏ ghép thành một bức ảnh lớn, nhưng hình như không hiệu quả.
+
+Làm sao bây giờ, lẽ nào thật sự liên quan đến mã code? Nhưng tôi không hiểu gì cả... Tôi nhìn chằm chằm vào màn hình, ngẩn người, cho đến khi những cái lỗ và que gậy trong tầm nhìn bắt đầu tan rã.
+
+Đại não vận hành với tốc độ chóng mặt, đột nhiên dừng lại ở một hình ảnh. Đúng rồi, tôi nhớ có một năm poster tuyển sinh của khoa Nghiên cứu Khoa học Thông tin và Công nghệ Đại học Tokyo chính là giải mã mật khẩu!
+
+Tuy nhiên điều này cũng chẳng có tác dụng mẹ gì, tôi đối với mấy thứ mã ASCII, big-endian hay little-endian cũng chỉ dừng ở mức độ nghe qua loa, nhưng điều này không cản trở tôi giải mã, bởi vì tôi nhớ đến Lão Tiêu.
+
+Điện thoại được nhấc máy, Tiêu Nghiêu kinh ngạc thốt lên một câu: "Vãi l, điện thoại vậy mà còn reo được à?"
+
+"Nói nhảm, Nebula cũng có tín hiệu mà."
+
+"Ngầu thật!"
+
+"Câm miệng, có chuyện muốn hỏi cậu đây."
+
+Tôi giải thích đơn giản với cậu ta là bên tôi có một bài toán giải mã hơi giống với bài toán tuyển sinh của Đại học Tokyo mà năm đó cậu cho tôi xem, nhờ cậu ta giúp đỡ.
+
+Do nói chuyện qua điện thoại không rõ ràng, Tiêu Nghiêu nói có thể để cậu ta điều khiển từ xa.
+
+Cái điều khiển từ xa này không phải là điều khiển máy tính từ xa thông thường của chúng ta, thực tế là, Tiêu Nghiêu đã thông qua việc thay đổi đường đi của ánh sáng, để có thể nhìn thấy màn hình máy tính của tôi từ cách xa hàng trăm dặm. Điều khiến tôi sốc nhất là, không ngờ cậu ta có thể dùng ánh sáng ngưng tụ thành một đôi tay bán trong suốt.
+
+"Anh Minh! Tiếp theo, cậu cứ theo đôi tay đó, nó bấm phím nào, cậu gõ phím đó, trên màn hình có một con trỏ hình trái tim, lúc nó chuyển sang màu đỏ thì nhấp đúp, chuột của cậu cũng di chuyển theo con trỏ."
+
+"Ngầu thật!"
+
+"Câm miệng, nhanh lên, tôi đang bận ăn cơm với Quân Tọa đây!"
+
+Tôi theo đôi 'tay' đó không ngừng di chuyển giữa chuột và bàn phím. Tiêu Nghiêu lần lượt thử mấy phương pháp, cuối cùng tạo ra được một tệp nén. Cậu ta nói nếu thật sự làm theo cách giải của bài toán Đại học Tokyo kia, mấu chốt của vấn đề nằm ở chỗ cậu có nhìn ra được đây là một tệp class hay không. Tiếc là sau khi chạy thử thì không nhận được gì cả.
+
+"Cái của nợ này không phải lại thêm một lớp mã hóa nữa chứ?" Tiêu Nghiêu bất đắc dĩ.
+
+Tôi nhìn chằm chằm vào đoạn mã được giải nén từ tệp nén đó: "Cái này thì gay go rồi, có trời mới biết Thị Trẫm đã dùng hàm gì, những đoạn code này chỉ có một mình cậu ấy mới đọc hiểu được."
+
+Tôi di chuyển chuột, chuyển giao diện về dãy 001010101 ban đầu.
+
+Đợi một chút! Hàm? Hệ tọa độ?
+
+"Lão Tiêu, có lẽ không phức tạp như chúng ta nghĩ đâu!"
+
+"Sao?"
+
+Tôi tiện tay rút một cuốn sách trên bàn của Thị Trẫm, vẽ một hệ tọa độ vào trang trống cuối cùng: "Phiền cậu giúp tôi đổi hết những số nhị phân này sang số thập phân. Tôi thử xem có thể tìm ra hàm số trên hệ tọa độ không."
+
+Sau đó Tiêu Nghiêu liền dịch những mã ASCII đó thành những con số hệ thập phân. Tôi coi chúng như những điểm tọa độ, quả nhiên, tôi vẽ ra được một chữ T trên trục tọa độ.
+
+Toki? Vậy chữ cái tiếp theo sẽ là O?
+
+Rõ ràng tôi đã không tiến hành bước tiếp theo nữa, hơn nữa tôi cho rằng Thị Trẫm sẽ không nhàm chán đến mức dùng giá trị nhị phân để biểu thị một chữ Toki trong hệ tọa độ.
+
+Tuy nhiên điều này vẫn gợi ý cho tôi, bởi vì tôi phát hiện, trong giá trị nhị phân sau khi biểu thị xong chữ T, số 0 đó không phải là 0, nói cách khác, đó không phải là chữ số 0 Ả Rập, mà chính là chữ cái O!
+
+Đcm! Quá là hiểm hóc!
+
+Tôi bỏ qua chữ o đó, tiếp tục dùng giá trị nhị phân tiếp theo chuyển sang số thập phân, sau đó coi chúng như các điểm tọa độ XY, quả nhiên vẽ ra được chữ K và I.
+
+Tôi dụi dụi mắt: "Đệt mịa, cả màn hình toàn 0011 ai con mẹ nó nhìn ra được số 0 đó không phải là số 0, mà là chữ O chứ, mắt tôi hoa hết cả rồi!"
+
+Tiêu Nghiêu ở đầu dây bên kia phát ra tiếng húp mì sùm sụp: "Hả? Thật ra ban nãy tôi cũng phát hiện ra rồi, tôi rất nhạy cảm với ánh sáng, chữ O này nhìn qua là biết nhỏ hơn số 0 một chút. Tôi cứ tưởng là BUG, nên không nhắc cậu."
+
+"...Cậu cút đi được rồi."
+
+Tôi cúp điện thoại. Đơn giản thô bạo dùng giá trị nhị phân '01001111' của nó để thay thế cho chữ O, sau đó làm theo phương pháp ban đầu của Lão Tiêu để xuất ra một tệp nén gz, giải nén, đổi phần mở rộng thành .class, chạy, cuối cùng tôi nhận được một đường link tải xuống, là một tệp video.
+
+Tôi nặng nề dựa vào ghế, thở phào một hơi dài. Trải qua bao nhiêu vất vả, tốn hết tâm sức giải mã ra được một video bí ẩn, video này sẽ tiết lộ điều gì đây?
+
+Nhìn tiến độ tải xuống gần đạt đến 100%, không ngờ tôi lại mơ hồ cảm thấy sợ hãi. Nếu tôi thật sự phá vỡ được âm mưu nào đó, tôi và Thị Trẫm vẫn có thể tiếp tục đứng ở điểm xuất phát được không?
+
+Mang theo tâm trạng thấp thỏm, tôi nhấp vào nút phát.
+
+Màn hình đen trong hai giây ngắn ngủi, sau đó là một màu vàng mơ ngập tràn.
+
+"OH! yes! fuck me please, fuck my ass baby! oh yeah... oh... you are so big!" (OH! Vâng! Hãy djt tôi đi, thông deet tôi đi bấy bì! oh yeah... oh... cậu lớn quá!)
+
+YOU ARE SO BIG! (CẬU LỚN QUÁ!)
+
+What the ma this!!! (Clqjv!!!)
+
+Thị Trẫm big big! Cậu qua đây! Tại sao đoạn code cậu dày công thiết kế giải mã ra lại là một đoạn video sex HD của hai cô nàng phương Tây nầm to và một gã da den cơ bắp chứ?!
+
+Cậu còn cố tình viết tên Toki vào trong mã code nữa, cậu hận cậu ta đến thế sao? Cậu nhàm chán đến thế sao? Cậu xem phim cũng có phong cách như vậy sao?
+
+CẬU THẬT LÀ PHONG CÁCH! Thanh đại đao trong tay tôi đã đói khát không thể chịu nổi nữa!
+
+Sắp xếp lại tâm trạng, tôi tắt máy tính, mệt mỏi rã rời đẩy cửa bước ra.
+
+Thị Trẫm big big đang vắt chéo chân, ngồi trên ghế sofa bóc quýt. Cậu ấy nhìn thấy tôi liền nở một nụ cười tâm ý tương thông: "Xong việc rồi à?"
+
+Cậu cút!
+
+Tôi lười để ý đến cậu ấy, nằm vật ra trên ghế sofa.
+
+Không ngờ tôi tính toán trăm bề, lại không tính lại được một kẻ thích làm màu như cậu ấy, tài liệu bí ẩn vất vả lắm mới giải mã ra được không ngờ lại là một bộ phim segg, con mẹ nó!
+
+Tại hạ thua rồi.
+
+Nhất định Thị Trẫm nghĩ tôi vì quay tay mà làm tổn thương cơ thể nên mới mềm oặt trên ghế sofa như vậy, nhưng vẫn nhiệt tình rót cho tôi một cốc trà đại bổ: "Đến đây, uống hết bát trà này đi."
+
+Tôi làm như không nghe thấy, nằm thẳng cẳng như xác chết.
+
+Cậu ấy đặt bát trà lên bàn trà, thuận thế dùng ngón tay vén một lọn tóc của tôi: "Lát nữa chúng ta đi thử quần áo."
+
+"..." Tôi giãy chân một cái, ngơ ngác ngẩng đầu.
+
+Thị Trẫm cười mà không nói.
+
+Để tiết kiệm thời gian, bữa trưa là món hot dog ngồi ăn trên xe. Chúng tôi phân công rõ ràng, tôi phụ trách lái xe, cậu ấy phụ trách ăn ở ghế phụ.
+
+"A..." Tôi há miệng.
+
+Cậu ấy đưa cây hot dog đến bên miệng tôi, tôi bất mãn: "Này, cái này là của cậu mà, cái cậu đang cầm ở tay trái mới là của tôi."
+
+Thị Trẫm không phân biệt của cậu của tôi mà tùy ý cắn một miếng ở tay trái: "Cái này không quan trọng lắm đâu nhỉ..."
+
+Tôi nhìn chằm chằm vào mặt đường phía trước, cố tỏ ra lạnh lùng: "Chúng ta thân lắm sao?"
+
+Có lẽ là do tâm lý của tôi, trong xe yên lặng đến kỳ lạ, chỉ có tiếng sột soạt của túi ni lông đựng hot dog.
+
+Cậu ấy dừng động tác ăn hot dog lại, nhìn tôi qua gương chiếu hậu trung tâm.
+
+Cậu ấy nói: "Có phải cậu rảnh rỗi quá không?"
+
+Thôi được rồi, đúng vậy.
+
+Tôi há miệng cắn một miếng hot dog cậu ấy đưa qua, nói năng không rõ ràng: "Chúng ta đây là định đi đâu vậy?"
+
+Cậu ấy ra hiệu cho tôi đỗ xe vào lề đường: "Đến rồi."
+
+Vừa xuống xe, Thị Trẫm đã bị Thị Nhung vọt tới bắt cóc đi mất.
+
+Thị Nhung đầu hổ não hổ ôm lấy đầu Thị Trẫm, cũng không quên quay đầu lại hét với tôi: "Cậu ở đây đợi một lát! Tôi tìm Thị Trẫm có chút việc!"
+
+Sau đó tôi liền nhìn Thị Trẫm vùng vẫy suốt đường cùng Thị Nhung biến mất ở cuối con phố.
+
+Đây là một con đường nhỏ bằng xi măng men theo sườn núi, xe đỗ dưới chân một dãy bậc thang dài.
+
+Dãy bậc thang này bắt đầu từ lưng chừng núi kéo dài đến đỉnh núi, nếu lát nữa Thị Trẫm bắt tôi đi bộ lên, tôi nhất định sẽ từ chối.
+
+Tôi ôm chiếc hot dog, vô công rồi nghề dựa vào xe đứng đợi.
+
+Một phút, hai phút, Thị Trẫm vẫn chưa quay lại.
+
+Tôi mở cửa xe, định vào trong xe đợi. Đúng lúc này, một chiếc xe thể thao màu xanh sapphire lao vút qua, dừng lại cách tôi không xa.
+
+Chiếc xe này vô cùng bắt mắt, tôi "vèo" một cái quay đầu lại khóa chặt ánh mắt.
+
+Một người đàn ông từ trên xe bước xuống. Ước chừng 1m92, dáng người thượng thừa, làn da trắng nõn, nhuộm một mái tóc xanh lam nổi bật.
+
+Người đàn ông đó đeo kính râm, tôi không nhìn rõ mắt, nhưng có thể thấy vầng trán đầy đặn, cằm nhọn, sống mũi cao thẳng, hoàn hảo đến mức phẫu thuật thẩm mỹ cũng không biết nên bắt đầu từ đâu.
+
+Tôi là một người vô cùng thật thà, vì anh ta đẹp trai, cho nên tôi cứ nhìn, không hề né tránh, mắt cũng không thèm chớp. 'Cậu nhìn cái gì' 'Nhìn anh thì sao', cứ như không sợ bị đánh vậy.
+
+Người đàn ông chú ý đến ánh mắt trần trụi của tôi, phóng khoáng khóa xe, đi về phía tôi.
+
+Tôi ôm chiếc hot dog, trợn tròn đôi mắt to ngây thơ.
+
+Đương nhiên là anh ta không đánh tôi, mà là chào hỏi tôi: "Đến rồi à..."
+
+Nghe có vẻ như rất thân quen với tôi.
+
+Tuy nhiên tôi không quen biết anh ta, đành phải gật đầu, tiếp tục nhìn chằm chằm vào cái cằm nhọn của anh ta.
+
+"Thị Trẫm đâu?" Anh ta hỏi.
+
+"Ừm..." Tôi chỉ về phía sau, "Bên kia."
+
+"Ồ." Anh ta dường như cũng không có gì muốn nói với tôi, xoay xoay chìa khóa xe trong tay rồi quay người đi.
+
+Tôi vẫy tay với anh ta, tiếp tục gặm chiếc hot dog của mình.
+
+Khí chất của người đàn ông này rất Tây, cảm giác giống như người Hoa kiều ABC lớn lên ở Mỹ, trong ấn tượng của tôi không có người bạn nào như vậy. So sánh lại, tôi đứng ở lề đường giữa trời gió lớn gặm hot dog quả thực quá quê mùa .
+
+"Cậu nói chuyện gì với anh ta vậy?" Giọng của Thị Trẫm đột nhiên vang lên sau lưng tôi.
+
+"Không nói gì cả..." Tôi quay đầu lại, "Người này là ai?"
+
+Thị Trẫm vươn vai một cái, ngáp một hơi: "Lan Thiết."
+
+Có lẽ là do gió lớn quá tôi không nghe rõ.
+
+"Ai?"
+
+"Lan Thiết..."
+
+"Phụt!!!!!" Tôi hộc một ngụm máu già, tay cầm chiếc hot dog run rẩy, "Nà ní?! Cái túi thịt lớn đã hành hạ tôi đến thân tàn ma dại đó?!"
+
+"Đúng vậy."
+
+Khóe mắt tôi rưng rưng lệ, chán chường không còn gì luyến tiếc mà ngẩng đầu: "Cậu lại lừa tôi..."
+
+Thị Trẫm cảm thấy buồn cười, khoác vai tôi dẫn tôi đi về phía bậc thang: "Là anh ta đấy, chỉ là lúc năng lực của anh ta mất kiểm soát, cơ thể mới phình to gấp 4 lần, bình thường thì chính là bộ dạng ban nãy."
+
+Tôi ngờ nghệch đi theo Thị Trẫm, trong lòng mệt mỏi rã rời.
+
+Mẹ ơi, thế giới này thực sự không chân thực chút nào.
