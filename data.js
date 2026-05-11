@@ -72,7 +72,7 @@ Hoá ra nó…đã sống được rất lâu.`,
         totalChapters: 30,
         extras: 0 
     },
-    "truyen-2": { title: "Ảo Giác Lạnh", cover: "truyen-2/cover.jpg", status: "done", 
+    "truyen-2": { title: "Ảo Giác Lạnh", cover: "truyen-2/cover.png", status: "done", 
         author: "Đằng Hoa Lang 💕",
         genre: "Nguyên sang, Đam mỹ, Hiện đại, HE, Tình cảm, Ngụy huynh đệ, Niên thượng, 1v1",
         characters: "Ninh Giác (thụ) 💖 Tống Thước (công)",
