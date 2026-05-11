@@ -177,7 +177,7 @@ Lục Kỳ Miên gật đầu lia lịa, giơ tay tự tiến cử: “Tôi có 
     },
     "truyen-6": { 
         title: "Oán Cốt Phong Triền / Hận Cốt Mê Tình", 
-        cover: "truyen-6/cover.jpg", 
+        cover: "truyen-6/cover.png", 
         status: "done", 
         author: "Tuyệt Thế Nhất Căn Thông a 💕",
         genre: "Nguyên sang, Đam mỹ, Hiện đại, Linh dị thần quái, HE",
@@ -216,7 +216,7 @@ Một người hận không thể hành hạ đối phương đến chết!
 
 Họ cứ như vậy yêu nhau, hận nhau, điên cuồng quấn lấy nhau đến tận xương tủy, không bao giờ có thể tách rời.`, 
         totalChapters: 196, 
-        extras: 21 
+        extras: 17 
     },
     "truyen-7": { 
         title: "Sau Khi Biến Mất Khỏi Thân Thể Thiếu Gia Thật, Anh Phát Điên", 
