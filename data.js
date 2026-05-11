@@ -421,7 +421,7 @@ Câu chuyện xoay quanh mối quan hệ giữa một Beta không có pheromone 
     },
     "truyen-14": { 
         title: "Cồn Cát Vùng Lầy", 
-        cover: "truyen-14/cover.jpg, 
+        cover: "truyen-14/cover.jpg", 
         status: "done", 
         author: "Vị Bặc 880 💕",
         genre: "Nguyên Sang, Đam mỹ, Hiện Đại, HE, Tình cảm, Mất trí nhớ, Độc miệng, Thẳng bẻ cong, Tự công lược",
