@@ -15,7 +15,8 @@ function applyStyles() {
     const savedBorder = localStorage.getItem('webcoreBorder') || defBorder;
     document.documentElement.style.setProperty('--primary-color', savedBorder);
     document.documentElement.style.setProperty('--border-dark', savedBorder);
-    document.body.style.fontFamily = localStorage.getItem('customFont') || "'DotGothic16', sans-serif";    
+    document.body.style.fontFamily = localStorage.getItem('customFont') || "'DotGothic16', sans-serif";
+    if(storyContent) storyContent.style.fontFamily = localStorage.getItem('customFont') || "inherit";
     const savedFontSize = localStorage.getItem('webcoreFontSize') || '16';
     document.documentElement.style.setProperty('--text-size', savedFontSize + 'px');
     if(fontSizeSlider) fontSizeSlider.value = savedFontSize;
