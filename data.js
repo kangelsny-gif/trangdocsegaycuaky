@@ -613,7 +613,7 @@ Truyện AO
     },
     "truyen-22": { 
         title: "Ác Thú Vị", 
-        cover: "truyen-22/cover.png", 
+        cover: "truyen-22/cover.jpg", 
         status: "wip", 
         author: "Vị Bặc 880 💕",
         genre: "Nguyên sang, Đam mỹ, Hiện đại, HE, Tình cảm, Gương vỡ lại lành, Cẩu huyết, Ngược luyến, Niên thượng, Si hán",
