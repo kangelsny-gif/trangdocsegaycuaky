@@ -310,3 +310,16 @@ if(canvas){
         } 
     }
 }
+const checkHCB = setInterval(() => {
+    const nameInput = document.querySelector('#hcb_form_name');
+    if (nameInput) {
+        clearInterval(checkHCB);
+        const savedName = localStorage.getItem('hcb_saved_name');
+        if (savedName) {
+            nameInput.value = savedName;
+        }
+        nameInput.addEventListener('input', function() {
+            localStorage.setItem('hcb_saved_name', this.value);
+        });
+    }
+}, 1000);
