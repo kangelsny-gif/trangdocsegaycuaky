@@ -8,7 +8,6 @@ const resetBtn = document.getElementById('reset-colors');
 const defBg = '#ffb7e2'; 
 const defWin = '#ffe4e1';
 const defBorder = '#3b3bff';
-
 function applyStyles() {
     document.documentElement.style.setProperty('--bg-color', localStorage.getItem('webcoreBg') || defBg);
     document.documentElement.style.setProperty('--window-bg', localStorage.getItem('webcoreWin') || defWin);
@@ -32,9 +31,11 @@ if (borderInput) borderInput.addEventListener('input', e => { localStorage.setIt
 if (fontSelect) fontSelect.addEventListener('change', e => { localStorage.setItem('customFont', e.target.value); applyStyles(); });
 if (readTextColorInput && storyContent) readTextColorInput.addEventListener('input', e => { localStorage.setItem('readTextColor', e.target.value); applyStyles(); });
 if (resetBtn) resetBtn.addEventListener('click', () => { 
-    localStorage.removeItem('webcoreBg'); localStorage.removeItem('webcoreWin'); 
+    localStorage.removeItem('webcoreBg'); 
+    localStorage.removeItem('webcoreWin'); 
     localStorage.removeItem('webcoreBorder'); 
-    localStorage.removeItem('customFont'); localStorage.removeItem('readTextColor');
+    localStorage.removeItem('customFont'); 
+    localStorage.removeItem('readTextColor');
     applyStyles(); 
 });
 const themeBtn = document.getElementById('theme-toggle');
@@ -51,27 +52,27 @@ const chapterNum = parseInt(urlParams.get('chap'));
 const extraNum = parseInt(urlParams.get('extra'));
 const isExtra = !isNaN(extraNum);
 const currentReadingNum = isExtra ? extraNum : chapterNum; 
-const currentPage = window.location.pathname.split('/').pop();
-if (currentPage === 'index.html' || currentPage === '') {
+if (document.getElementById('track-done')) {
     const trackDone = document.getElementById('track-done');
     const trackWip = document.getElementById('track-wip');
-    for (const [id, info] of Object.entries(DATA)) {
-        const html = `<a href="novel.html?id=${id}" class="story-card" draggable="false"><img src="${info.cover}" draggable="false"><p>${info.title}</p></a>`;
-        if (info.status === 'done' && trackDone) trackDone.innerHTML += html;
-        if (info.status === 'wip' && trackWip) trackWip.innerHTML += html;
+    if (typeof DATA !== 'undefined') {
+        for (const [id, info] of Object.entries(DATA)) {
+            const html = `<a href="novel.html?id=${id}" class="story-card" draggable="false"><img src="${info.cover}" draggable="false"><p>${info.title}</p></a>`;
+            if (info.status === 'done' && trackDone) trackDone.innerHTML += html;
+            if (info.status === 'wip' && trackWip) trackWip.innerHTML += html;
+        }
+    } else {
+        console.error("Biến DATA không tồn tại! Hãy kiểm tra lại file data.js");
     }
     function setupInfiniteScroll(containerId, speed, direction) {
         const container = document.getElementById(containerId);
         if(!container) return;
         const track = container.querySelector('.story-track');
         track.innerHTML += track.innerHTML;
-        let isHovered = false;
-        let isDown = false;
-        let startX;
-        let scrollLeftPos;
+        let isHovered = false, isDown = false, startX, scrollLeftPos;
+        
         container.addEventListener('mousedown', (e) => {
-            isDown = true;
-            isHovered = true;
+            isDown = true; isHovered = true;
             startX = e.pageX - container.offsetLeft;
             scrollLeftPos = container.scrollLeft;
         });
@@ -81,8 +82,7 @@ if (currentPage === 'index.html' || currentPage === '') {
             if (!isDown) return;
             e.preventDefault();
             const x = e.pageX - container.offsetLeft;
-            const walk = (x - startX) * 1.5;
-            container.scrollLeft = scrollLeftPos - walk;
+            container.scrollLeft = scrollLeftPos - ((x - startX) * 1.5);
         });
         container.addEventListener('mouseenter', () => isHovered = true);
         container.addEventListener('touchstart', () => isHovered = true, {passive: true});
@@ -95,15 +95,6 @@ if (currentPage === 'index.html' || currentPage === '') {
                 } else {
                     container.scrollLeft -= speed;
                     if (container.scrollLeft <= 0) container.scrollLeft += track.scrollWidth / 2;
-                }
-            } else {
-                if (container.scrollLeft >= track.scrollWidth / 2) {
-                    container.scrollLeft -= track.scrollWidth / 2;
-                    if(isDown) scrollLeftPos -= track.scrollWidth / 2; 
-                }
-                if (container.scrollLeft <= 0) {
-                    container.scrollLeft += track.scrollWidth / 2;
-                    if(isDown) scrollLeftPos += track.scrollWidth / 2;
                 }
             }
             requestAnimationFrame(step);
@@ -126,25 +117,22 @@ if (currentPage === 'index.html' || currentPage === '') {
         });
     }
 }
-if (currentPage === 'novel.html' && DATA[novelId]) {
+if (document.getElementById('chapter-list') && DATA && DATA[novelId]) {
     const info = DATA[novelId];
     document.getElementById('novel-title').innerText = info.title;
     document.getElementById('novel-desc').innerText = info.desc;
-    document.getElementById('novel-cover').src = info.cover;
-    
+    document.getElementById('novel-cover').src = info.cover;    
     if(document.getElementById('novel-author')) {
         document.getElementById('novel-author').innerText = info.author || "Đang cập nhật";
         document.getElementById('novel-genre').innerText = info.genre || "Đang cập nhật";
         document.getElementById('novel-chars').innerText = info.characters || "Đang cập nhật";
         document.getElementById('novel-status').innerText = info.status === 'done' ? "Đã Hoàn Thành" : "Đang Tiến Hành";
-    }
-    
+    }    
     const chapListDiv = document.getElementById('chapter-list');
     let finalHtml = '<div style="width:100%;"><h4 style="margin:5px 0; border-bottom:2px dashed var(--primary-color);">[ CHƯƠNG CHÍNH ]</h4></div>';
     for (let i = 1; i <= info.totalChapters; i++) {
         finalHtml += `<a href="read.html?id=${novelId}&chap=${i}" class="win-btn">Chap_${i}.txt</a>`;
     }
-
     if (info.extras && info.extras > 0) {
         finalHtml += '<div style="width:100%; margin-top:15px;"><h4 style="margin:5px 0; border-bottom:2px dashed var(--primary-color);">[ NGOẠI TRUYỆN ]</h4></div>';
         for (let i = 1; i <= info.extras; i++) {
@@ -153,37 +141,34 @@ if (currentPage === 'novel.html' && DATA[novelId]) {
     }
     chapListDiv.innerHTML = finalHtml;
 }
-function toggleTOC() {
-    const overlay = document.getElementById('toc-overlay');
-    const modal = document.getElementById('toc-modal');
-    if(overlay.style.display === 'block') {
-        overlay.style.display = 'none'; modal.style.display = 'none';
-    } else {
-        overlay.style.display = 'block'; modal.style.display = 'block';
-    }
-}
-if (currentPage === 'read.html') {
+if (document.getElementById('story-content') && typeof DATA !== 'undefined') {
     const info = DATA[novelId];
-    document.getElementById('back-to-novel').href = `novel.html?id=${novelId}`;
-    
+    if(document.getElementById('back-to-novel')) {
+        document.getElementById('back-to-novel').href = `novel.html?id=${novelId}`;
+    }    
     const fileName = isExtra ? `nt${currentReadingNum}.txt` : `${currentReadingNum}.txt`;
     const titleText = isExtra ? `NgoaiTruyen_${currentReadingNum}.txt` : `Chap_${currentReadingNum}.txt`;
-    document.getElementById('chapter-title').innerText = `${titleText} - Notepad`;
+    
+    if(document.getElementById('chapter-title')) {
+        document.getElementById('chapter-title').innerText = `${titleText} - Notepad`;
+    }   
     if(info) {
         const modalList = document.getElementById('modal-chapter-list');
-        let html = '<div style="background:var(--primary-color); color:var(--inner-bg); padding:2px; font-weight:bold; margin-bottom:5px;">[ CHƯƠNG CHÍNH ]</div>';        
-        for (let i = 1; i <= info.totalChapters; i++) {
-            let activeStyle = (!isExtra && i === currentReadingNum) ? 'background:var(--primary-color); color:var(--inner-bg);' : '';
-            html += `<a href="read.html?id=${novelId}&chap=${i}" class="win-btn" style="text-align:left; ${activeStyle}">Chapter ${i}</a>`;
-        }       
-        if (info.extras && info.extras > 0) {
-            html += '<div style="background:var(--primary-color); color:var(--inner-bg); padding:2px; font-weight:bold; margin-top:10px; margin-bottom:5px;">[ NGOẠI TRUYỆN ]</div>';
-            for (let i = 1; i <= info.extras; i++) {
-                let activeStyle = (isExtra && i === currentReadingNum) ? 'background:var(--primary-color); color:var(--inner-bg);' : '';
-                html += `<a href="read.html?id=${novelId}&extra=${i}" class="win-btn" style="text-align:left; ${activeStyle}">Ngoại Truyện ${i}</a>`;
+        if(modalList) {
+            let html = '<div style="background:var(--primary-color); color:var(--inner-bg); padding:2px; font-weight:bold; margin-bottom:5px;">[ CHƯƠNG CHÍNH ]</div>';        
+            for (let i = 1; i <= info.totalChapters; i++) {
+                let activeStyle = (!isExtra && i === currentReadingNum) ? 'background:var(--primary-color); color:var(--inner-bg);' : '';
+                html += `<a href="read.html?id=${novelId}&chap=${i}" class="win-btn" style="text-align:left; ${activeStyle}">Chapter ${i}</a>`;
+            }       
+            if (info.extras && info.extras > 0) {
+                html += '<div style="background:var(--primary-color); color:var(--inner-bg); padding:2px; font-weight:bold; margin-top:10px; margin-bottom:5px;">[ NGOẠI TRUYỆN ]</div>';
+                for (let i = 1; i <= info.extras; i++) {
+                    let activeStyle = (isExtra && i === currentReadingNum) ? 'background:var(--primary-color); color:var(--inner-bg);' : '';
+                    html += `<a href="read.html?id=${novelId}&extra=${i}" class="win-btn" style="text-align:left; ${activeStyle}">Ngoại Truyện ${i}</a>`;
+                }
             }
+            modalList.innerHTML = html;
         }
-        modalList.innerHTML = html;
     }
     fetch(`${novelId}/${fileName}`)
         .then(res => { if (!res.ok) throw new Error(`Tác giả chưa up file này! (404)`); return res.text(); })
@@ -192,20 +177,23 @@ if (currentPage === 'read.html') {
             cleanText = cleanText.replace(/\n/g, '<br>');
             document.getElementById('story-content').innerHTML = cleanText;
         })
-        .catch(err => document.getElementById('story-content').innerHTML = `<b>SYSTEM ERROR:</b> ${err.message}`);
+        .catch(err => {
+            document.getElementById('story-content').innerHTML = `<b style="color:red;">SYSTEM ERROR:</b> ${err.message}`;
+        });
     const typeParam = isExtra ? 'extra' : 'chap';
     const maxNum = isExtra ? info.extras : info.totalChapters;
+
     const prevAction = () => { 
         if (currentReadingNum > 1) window.location.href = `read.html?id=${novelId}&${typeParam}=${currentReadingNum - 1}`; 
     };
     const nextAction = () => { 
         if (currentReadingNum < maxNum) window.location.href = `read.html?id=${novelId}&${typeParam}=${currentReadingNum + 1}`; 
-        else alert("SYSTEM: Đã hết chương! 🌸"); 
+        else alert("SYSTEM NOTIFICATION: Đã hết chương! Tác giả chưa up chương tiếp theo! Đừng hối nha 🌸"); 
     };
-    document.getElementById('prev-btn').onclick = prevAction; 
-    document.getElementById('next-btn').onclick = nextAction; 
-    document.getElementById('prev-btn-bottom').onclick = prevAction; 
-    document.getElementById('next-btn-bottom').onclick = nextAction;
+    if(document.getElementById('prev-btn')) document.getElementById('prev-btn').onclick = prevAction; 
+    if(document.getElementById('next-btn')) document.getElementById('next-btn').onclick = nextAction; 
+    if(document.getElementById('prev-btn-bottom')) document.getElementById('prev-btn-bottom').onclick = prevAction; 
+    if(document.getElementById('next-btn-bottom')) document.getElementById('next-btn-bottom').onclick = nextAction;
 }
 function toggleTOC() {
     const overlay = document.getElementById('toc-overlay');
@@ -216,77 +204,6 @@ function toggleTOC() {
     } else {
         overlay.style.display = 'block'; modal.style.display = 'block';
     }
-}
-async function renderModalChapters(info, novelId, currentReadingNum, isExtra) {
-    const modalList = document.getElementById('modal-chapter-list');
-    modalList.innerHTML = '<div style="text-align:center;">Checking directories...</div>';
-    let html = '<div style="background:var(--primary-color); color:var(--inner-bg); padding:2px; font-weight:bold; margin-bottom:5px;">[ CHƯƠNG CHÍNH ]</div>';
-    for (let i = 1; i <= info.totalChapters; i++) {
-        try {
-            const res = await fetch(`${novelId}/${i}.txt?t=${Date.now()}`, { method: 'HEAD' });
-            if (res.ok) {
-                let activeStyle = (!isExtra && i === currentReadingNum) ? 'background:var(--primary-color); color:var(--inner-bg);' : '';
-                html += `<a href="read.html?id=${novelId}&chap=${i}" class="win-btn" style="text-align:left; ${activeStyle}">Chapter ${i}</a>`;
-            } else break;
-        } catch(e) { break; }
-    }
-    if (info.extras && info.extras > 0) {
-        html += '<div style="background:var(--primary-color); color:var(--inner-bg); padding:2px; font-weight:bold; margin-top:10px; margin-bottom:5px;">[ NGOẠI TRUYỆN ]</div>';
-        for (let i = 1; i <= info.extras; i++) {
-            try {
-                const res = await fetch(`${novelId}/nt${i}.txt?t=${Date.now()}`, { method: 'HEAD' });
-                if (res.ok) {
-                    let activeStyle = (isExtra && i === currentReadingNum) ? 'background:var(--primary-color); color:var(--inner-bg);' : '';
-                    html += `<a href="read.html?id=${novelId}&extra=${i}" class="win-btn" style="text-align:left; ${activeStyle}">Ngoại Truyện ${i}</a>`;
-                } else break;
-            } catch(e) { break; }
-        }
-    }
-    modalList.innerHTML = html;
-}
-if (currentPage === 'read.html') {
-    const info = DATA[novelId];
-    if(document.getElementById('back-to-novel')) {
-        document.getElementById('back-to-novel').href = `novel.html?id=${novelId}`;
-    }
-    const fileName = isExtra ? `nt${currentReadingNum}.txt` : `${currentReadingNum}.txt`;
-    const titleText = isExtra ? `NgoaiTruyen_${currentReadingNum}.txt` : `Chap_${currentReadingNum}.txt`;
-    
-    if(document.getElementById('chapter-title')) {
-        document.getElementById('chapter-title').innerText = `${titleText} - Notepad`;
-    }
-    if(info) renderModalChapters(info, novelId, currentReadingNum, isExtra);
-    
-    fetch(`${novelId}/${fileName}`)
-        .then(res => { if (!res.ok) throw new Error(`File ${fileName} is Missing! (404)`); return res.text(); })
-        .then(text => {
-        let cleanText = text.replace(/\n{3,}/g, '\n\n');
-        cleanText = cleanText.replace(/\n/g, '<br>');
-        document.getElementById('story-content').innerHTML = cleanText;
-    })
-        .catch(err => {
-            if(document.getElementById('story-content')){
-                document.getElementById('story-content').innerHTML = `<b>SYSTEM ERROR:</b> ${err.message}`;
-            }
-        });
-    const typeParam = isExtra ? 'extra' : 'chap';
-
-    const prevAction = () => { 
-        if (currentReadingNum > 1) window.location.href = `read.html?id=${novelId}&${typeParam}=${currentReadingNum - 1}`; 
-    };
-    const nextAction = async () => { 
-        const nextFileName = isExtra ? `nt${currentReadingNum + 1}.txt` : `${currentReadingNum + 1}.txt`;
-        const res = await fetch(`${novelId}/${nextFileName}?t=${Date.now()}`, { method: 'HEAD' });
-        if (res.ok) {
-            window.location.href = `read.html?id=${novelId}&${typeParam}=${currentReadingNum + 1}`; 
-        } else {
-            alert("SYSTEM NOTIFICATION: Tác giả chưa up chương tiếp theo! Đừng hối nha 🌸");
-        }
-    };
-    if(document.getElementById('prev-btn')) document.getElementById('prev-btn').onclick = prevAction; 
-    if(document.getElementById('next-btn')) document.getElementById('next-btn').onclick = nextAction; 
-    if(document.getElementById('prev-btn-bottom')) document.getElementById('prev-btn-bottom').onclick = prevAction; 
-    if(document.getElementById('next-btn-bottom')) document.getElementById('next-btn-bottom').onclick = nextAction;
 }
 document.addEventListener('mousemove', e => { 
     if (Math.random() > 0.8) {
@@ -339,8 +256,7 @@ function togglePlay() {
     if (!isPlaying) { 
         audio.play().catch(()=>{}); isPlaying = true; 
         if(pBtn) pBtn.innerText = "||"; 
-    } 
-    else { 
+    } else { 
         audio.pause(); isPlaying = false; 
         if(pBtn) pBtn.innerText = ">||"; 
     } 
