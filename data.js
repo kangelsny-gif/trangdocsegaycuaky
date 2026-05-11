@@ -563,7 +563,7 @@ Lý Nhân & Đào Tiểu Sơn
     },
     "truyen-20": { 
         title: "Tuyết Lành Báo Hiệu Năm Bội Thu", 
-        cover: "truyen-20/cover.png", 
+        cover: "truyen-20/cover.jpg", 
         status: "wip", 
         author: "Lạc Hồi 💕",
         genre: "Nguyên sang, Đam mỹ, Hiện đại, HE, Tình cảm, Ngọt văn, Niên thượng, Incest (ngụy), Đoản văn",
