@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>KANgel's NY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Be+Vietnam+Pro:wght@400;700&family=DotGothic16&family=Mali:wght@400;700&family=Open+Sans:wght@400;700&family=Quicksand:wght@500;700&family=Roboto:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+    <script src="https://iframe.chat/scripts/main.min.js"></script>
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="top-menu-bar">
+        <a href="index.html">🏠 Trang Chủ</a> 
+        <a href="https://www.facebook.com/profile.php?id=61573784205040" target="_blank">📘 Facebook</a> 
+        <a href="https://kangelsny.wordpress.com/" target="_blank">🌸 WordPress</a> 
+        <a href="https://www.tiktok.com/@kangels.ny" target="_blank">🎵 TikTok</a> 
+        <a href="https://www.youtube.com/@KAngelsNY" target="_blank">▶️ YouTube</a>
+        <a href="https://www.wattpad.com/user/kangelny" target="_blank">📖 Wattpad</a>
+        <a href="https://www.facebook.com/groups/1541181573591650" target="_blank">👥 Group</a>
+        <span style="margin-left: auto;">Welcome to KAngel's NY!</span>
+    </div>
+    <img src="image/kangel2.png" class="anime-mascot mascot-tr" title="Mascot Góc Trên Phải">
+    <img src="image/kangel1.gif" class="anime-mascot mascot-bl" title="Mascot Góc Dưới Trái">
+    <img src="image/kangel3.gif" class="anime-mascot mascot-br" title="Mascot Góc Dưới Phải">
+    <div class="desktop-grid">
+        <div class="col">
+            <div class="os-window" id="win-system">
+                <div class="os-title-bar"><span>SYSTEM_INFO.exe</span><div class="os-window-btn"><div class="os-btn-mini">X</div></div></div>
+                <div class="os-content" style="text-align: center;">
+                    <p style="background: #fff; border: 2px inset var(--border-dark); padding: 5px; font-weight: bold;">Admin: KY 💕<br>Status: Hoàn Mĩ</p>
+                </div>
+            </div>
+            <div class="os-window" id="win-music">
+                <div class="os-title-bar"><span>WINAMP.exe</span><div class="os-window-btn"><div class="os-btn-mini">X</div></div></div>
+                <div class="os-content">
+                    <div class="music-player-os">
+                        <div class="mp-screen"><marquee id="song-title">Đang tải nhạc...</marquee></div>
+                        <div class="mp-controls">
+                            <button class="win-btn" onclick="prevTrack()">|&lt;</button>
+                            <button class="win-btn" id="play-btn" onclick="togglePlay()">&gt;||</button>
+                            <button class="win-btn" onclick="nextTrack()">&gt;|</button>
+                        </div>
+                    </div>
+                    <audio id="audio-core"></audio>
+                </div>
+            </div>
+            <div class="os-window" id="win-calendar">
+                <div class="os-title-bar"><span>CALENDAR.exe</span><div class="os-window-btn"><div class="os-btn-mini">X</div></div></div>
+                <div class="os-content">
+                    <div id="calendar-month-year" style="font-weight:bold; margin-bottom:5px;">Lịch</div>
+                    <div class="calendar-grid" id="calendar-dates"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="os-window" id="win-done">
+                <div class="os-title-bar"><span>C:\Novels\Done (18)</span><div class="os-window-btn"><div class="os-btn-mini">_</div><div class="os-btn-mini">X</div></div></div>
+                <div class="os-content">
+                    <div class="story-scroll-container" id="scroll-done"><div class="story-track" id="track-done"></div></div>
+                </div>
+            </div>
+            <div class="os-window" id="win-wip">
+                <div class="os-title-bar"><span>C:\Novels\WIP (7)</span><div class="os-window-btn"><div class="os-btn-mini">_</div><div class="os-btn-mini">X</div></div></div>
+                <div class="os-content">
+                    <div class="story-scroll-container" id="scroll-wip"><div class="story-track" id="track-wip"></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="os-window" id="win-updates">
+                <div class="os-title-bar"><span>SITE_UPDATES.exe</span><div class="os-window-btn"><div class="os-btn-mini">X</div></div></div>
+                <div class="os-content">
+                    <ul class="update-list inner-box" id="update-list-box" style="list-style: none; padding: 5px; margin: 0; max-height: 150px; overflow-y: auto; font-size: 13px;">
+                        <li>Loading updates...</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="os-window" id="win-paint">
+                <div class="os-title-bar"><span>MS_PAINT.exe</span><div class="os-window-btn"><div class="os-btn-mini">X</div></div></div>
+                <div class="os-content">
+                    <canvas id="draw-board"></canvas>
+                    <div class="paint-tools">
+                        <div style="display:flex; gap:5px;">
+                            <div style="width:20px;height:20px; border:1px solid #000; overflow:hidden;"><input type="color" value="#ff1493" onchange="setColor(this.value)" style="width:200%;height:200%;transform:translate(-25%,-25%);"></div>
+                            <div style="width:20px;height:20px; background:#000; border:1px solid #000; cursor:pointer;" onclick="setColor('#000')"></div>
+                            <div style="width:20px;height:20px; background:#fff; border:1px solid #000; cursor:pointer; text-align:center; line-height:18px; font-weight:bold;" onclick="setEraser()">E</div>
+                        </div>
+                        <div style="display:flex; gap:5px;">
+                            <button class="win-btn" style="padding:2px 5px; font-size:12px;" onclick="undoArt()">Undo</button>
+                            <button class="win-btn" style="padding:2px 5px; font-size:12px;" onclick="clearCanvas()">Clear</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="os-window" id="win-chat">
+                <div class="os-title-bar"><span>CHAT_CLIENT.exe</span><div class="os-window-btn"><div class="os-btn-mini">X</div></div></div>
+                <div class="os-content">
+                    <iframe src='https://iframe.chat/embed?chat=71853818' id='chattable' frameborder='none' height="250"></iframe>
+                    <script>chattable.initialize({ theme : "Retro" });</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="taskbar">
+        <a href="index.html" style="text-decoration:none;"><div class="start-btn"><img src="https://sadhost.neocities.org/images/decor/pixel-heart.png" width="16"> START</div></a>
+        <div class="taskbar-tools">
+            <select id="font-select" class="font-select" title="Đổi Font Chữ">
+                <option value="'DotGothic16', sans-serif">Pixel</option>
+                <option value="'Be Vietnam Pro', sans-serif">Be Vietnam</option>
+                <option value="'Quicksand', sans-serif">Quicksand</option>
+                <option value="'Mali', cursive">Mali</option>
+                <option value="Arial, sans-serif">Arial</option>
+                <option value="'Times New Roman', serif">Times New Roman</option>
+                <option value="'Roboto', serif">Roboto</option>
+                <option value="'Open sans', serif">Open sans</option>
+                <option value="'Work sans', serif">Work sans</option>
+                <option value="'Alegreya', serif">Alegreya</option>
+            </select>
+            <div id="theme-toggle" class="tool-btn" title="Dark Mode">🌙</div>
+            <div class="tool-btn" title="Đổi Màu Nền">🎨<input type="color" id="bg-color"></div>
+            <div class="tool-btn" title="Đổi Màu Cửa Sổ">🪟<input type="color" id="window-color"></div>
+            <div class="tool-btn" title="Đổi Màu Viền Khung">🔲<input type="color" id="border-color"></div>
+            <div id="reset-colors" class="tool-btn" title="Reset All">🔄</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

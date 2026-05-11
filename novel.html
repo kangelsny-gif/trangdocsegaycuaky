@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Folder: Novel 📁</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Be+Vietnam+Pro:wght@400;700&family=DotGothic16&family=Mali:wght@400;700&family=Open+Sans:wght@400;700&family=Quicksand:wght@500;700&family=Roboto:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="top-menu-bar">
+        <a href="index.html">🏠 Trang Chủ</a> 
+        <a href="https://www.facebook.com/profile.php?id=61573784205040" target="_blank">📘 Facebook</a> 
+        <a href="https://kangelsny.wordpress.com/" target="_blank">🌸 WordPress</a> 
+        <a href="https://www.tiktok.com/@kangels.ny" target="_blank">🎵 TikTok</a> 
+        <a href="https://www.youtube.com/@KAngelsNY" target="_blank">▶️ YouTube</a>
+        <a href="https://www.wattpad.com/user/kangelny" target="_blank">📖 Wattpad</a>
+        <a href="https://www.facebook.com/groups/1541181573591650" target="_blank">👥 Group</a>
+        <span style="margin-left: auto;">Welcome to KAngel's NY!</span>
+    </div>
+    <div class="read-box">
+        <div class="os-window">
+            <div class="os-title-bar"><span>C:\My_Novels\Info.exe</span><div class="os-window-btn"><div class="os-btn-mini">X</div></div></div>
+            <div class="os-content" style="text-align: center;">
+                <div style="text-align: left; margin-bottom: 15px;">
+                    <a href="index.html" class="win-btn">&lt; Về Màn Hình Chính</a>
+                </div>
+                <div class="novel-info-header">
+                    <img id="novel-cover" src="" style="width: 150px; height: 225px; object-fit: cover; border: 2px solid var(--primary-color);">
+                    <div class="novel-info-text">
+                        <h2 class="box-title" id="novel-title" style="margin-bottom:0;">Loading...</h2>
+                        <p><b>Tác giả:</b> <span id="novel-author">...</span></p>
+                        <p><b>Thể loại:</b> <span id="novel-genre">...</span></p>
+                        <p><b>Nhân vật:</b> <span id="novel-chars">...</span></p>
+                        <p><b>Tình trạng:</b> <span id="novel-status">...</span></p>
+                    </div>
+                </div>
+                <h3 class="box-title" style="text-align: left; font-size: 20px;">VĂN ÁN</h3>
+                <div id="novel-desc" class="inner-box" style="text-align: justify; margin-bottom: 20px;"></div>
+                <h3 class="box-title" style="text-align: left; font-size: 20px;">DANH SÁCH CHƯƠNG</h3>
+                <div id="chapter-list" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;"></div>
+            </div>
+        </div>
+        <div class="os-window">
+            <div class="os-title-bar"><span>Comments_Board.exe</span><div class="os-window-btn"><div class="os-btn-mini">X</div></div></div>
+            <div class="os-content inner-box">
+                <div id="HCB_comment_box">Loading comments...</div>
+                <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24FTA6jrgdpDVKJGcnVMJP9%2F"+"&opts=16798&num=10&ts=1778410925084");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+            </div>
+        </div>
+    </div>
+    <div id="anime-elevator" style="position:fixed; right:20px; bottom:60px; z-index:1000; cursor:pointer;" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        <img src="https://files.catbox.moe/u8bsv3.gif" width="60" style="border: 2px solid var(--primary-color);">
+    </div>
+    <div class="taskbar">
+        <a href="index.html" style="text-decoration:none;"><div class="start-btn"><img src="https://sadhost.neocities.org/images/decor/pixel-heart.png" width="16"> START</div></a>
+        <div class="taskbar-tools">
+            <select id="font-select" class="font-select" title="Đổi Font Chữ">
+                <option value="'DotGothic16', sans-serif">Pixel</option>
+                <option value="'Be Vietnam Pro', sans-serif">Be Vietnam</option>
+                <option value="'Quicksand', sans-serif">Quicksand</option>
+                <option value="'Mali', cursive">Mali</option>
+                <option value="Arial, sans-serif">Arial</option>
+                <option value="'Times New Roman', serif">Times New Roman</option>
+                <option value="'Roboto', serif">Roboto</option>
+                <option value="'Open sans', serif">Open sans</option>
+                <option value="'Work sans', serif">Work sans</option>
+                <option value="'Alegreya', serif">Alegreya</option>
+            </select>
+            <div id="theme-toggle" class="tool-btn">🌙</div>
+            <div class="tool-btn">🎨<input type="color" id="bg-color"></div>
+            <div class="tool-btn">🪟<input type="color" id="window-color"></div>
+            <div class="tool-btn">🔲<input type="color" id="border-color"></div>
+            <div id="reset-colors" class="tool-btn">🔄</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
