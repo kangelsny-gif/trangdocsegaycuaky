@@ -57,7 +57,7 @@ if (document.getElementById('track-done')) {
     const trackWip = document.getElementById('track-wip');
     if (typeof DATA !== 'undefined') {
         for (const [id, info] of Object.entries(DATA)) {
-            const html = `<a href="novel.html?id=${id}" class="story-card" draggable="false"><img src="${info.cover}" draggable="false"><p>${info.title}</p></a>`;
+            const html = `<a href="novel.html?id=${id}" class="story-card" draggable="false"><img src="${info.cover}" loading="lazy" decoding="async" draggable="false"><p>${info.title}</p></a>`;
             if (info.status === 'done' && trackDone) trackDone.innerHTML += html;
             if (info.status === 'wip' && trackWip) trackWip.innerHTML += html;
         }
