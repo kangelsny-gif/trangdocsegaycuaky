@@ -5,6 +5,7 @@ const fontSelect = document.getElementById('font-select');
 const readTextColorInput = document.getElementById('read-text-color');
 const storyContent = document.getElementById('story-content');
 const resetBtn = document.getElementById('reset-colors');
+const fontSizeSlider = document.getElementById('font-size-slider');
 const defBg = '#ffb7e2'; 
 const defWin = '#ffe4e1';
 const defBorder = '#3b3bff';
@@ -15,6 +16,9 @@ function applyStyles() {
     document.documentElement.style.setProperty('--primary-color', savedBorder);
     document.documentElement.style.setProperty('--border-dark', savedBorder);
     document.body.style.fontFamily = localStorage.getItem('customFont') || "'DotGothic16', sans-serif";    
+    const savedFontSize = localStorage.getItem('webcoreFontSize') || '16';
+    document.documentElement.style.setProperty('--text-size', savedFontSize + 'px');
+    if(fontSizeSlider) fontSizeSlider.value = savedFontSize;
     if(storyContent) {
         storyContent.style.color = localStorage.getItem('readTextColor') || ''; 
     }    
@@ -30,12 +34,17 @@ if (winInput) winInput.addEventListener('input', e => { localStorage.setItem('we
 if (borderInput) borderInput.addEventListener('input', e => { localStorage.setItem('webcoreBorder', e.target.value); applyStyles(); });
 if (fontSelect) fontSelect.addEventListener('change', e => { localStorage.setItem('customFont', e.target.value); applyStyles(); });
 if (readTextColorInput && storyContent) readTextColorInput.addEventListener('input', e => { localStorage.setItem('readTextColor', e.target.value); applyStyles(); });
+if (fontSizeSlider) fontSizeSlider.addEventListener('input', e => { 
+    localStorage.setItem('webcoreFontSize', e.target.value); 
+    applyStyles(); 
+});
 if (resetBtn) resetBtn.addEventListener('click', () => { 
     localStorage.removeItem('webcoreBg'); 
     localStorage.removeItem('webcoreWin'); 
     localStorage.removeItem('webcoreBorder'); 
     localStorage.removeItem('customFont'); 
     localStorage.removeItem('readTextColor');
+    localStorage.removeItem('webcoreFontSize');
     applyStyles(); 
 });
 const themeBtn = document.getElementById('theme-toggle');
