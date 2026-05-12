@@ -333,3 +333,17 @@ const checkHCB = setInterval(() => {
         });
     }
 }, 1000);
+if(document.getElementById('draw-board')) {
+    window.saveArt = () => { 
+        const cvs = document.getElementById('draw-board');
+        const tempCanvas = document.createElement('canvas');
+        tempCanvas.width = cvs.width; tempCanvas.height = cvs.height;
+        const tCtx = tempCanvas.getContext('2d');
+        tCtx.fillStyle = '#ffffff'; tCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
+        tCtx.drawImage(cvs, 0, 0);
+        const link = document.createElement('a');
+        link.download = 'reader_artwork.jpg';
+        link.href = tempCanvas.toDataURL('image/jpg');
+        link.click();
+    };
+}
