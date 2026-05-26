@@ -1,7 +1,7 @@
 const NOTIFICATIONS = [
-    { date: "19/05", tag: "HOT", text: "Ác Thú Vị - Chap 62", link: "read.html?id=truyen-22&chap=62" },
     { date: "21/05", tag: "HOT", text: "Ác Thú Vị - Chap 63", link: "read.html?id=truyen-22&chap=63" },
-    { date: "23/05", tag: "HOT", text: "Ác Thú Vị - Chap 64", link: "read.html?id=truyen-22&chap=64" }
+    { date: "23/05", tag: "HOT", text: "Ác Thú Vị - Chap 64", link: "read.html?id=truyen-22&chap=64" },
+    { date: "26/05", tag: "HOT", text: "Ác Thú Vị - Chap 65", link: "read.html?id=truyen-22&chap=65" }
 ];
 const DATA = {
     "truyen-1": { 
@@ -633,7 +633,7 @@ Bọn họ duy trì một loại quan hệ hôn môi đã không phải là bạ
 Nam giả cao lãnh và cún con si hán
 
 Thẩm Khâm Ngôn x Quan Miểu`, 
-        totalChapters: 64, 
+        totalChapters: 65, 
         extras: 0 
     },
     "truyen-23": { 
