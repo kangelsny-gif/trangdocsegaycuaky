@@ -706,5 +706,26 @@ Sinh tử, Anh em không có quan hệ huyết thống
 【Dưỡng thành tiểu bạch hoa, Bỏ con, Tiểu nòng nọc tìm mẹ, Tất cả các nhân vật ghép cặp loạn xạ, ABO】`, 
         totalChapters: 11, 
         extras: 0 
+    },
+    "truyen-26": { 
+        title: "Hoài Thanh", 
+        cover: "truyen-26/cover.jpg",
+        status: "wip",
+        author: "Dĩ Tư 2000 💕",
+        genre: "Nguyên sang, Đam mỹ, Cận đại, HE, Tình cảm, Sinh con, Dân quốc, Cưới trước yêu sau",
+        characters: "Hạ Hoằng (công) 💖 Thẩm Hoài Thanh (thụ)",
+        desc: `Dân quốc Cưới trước yêu sau Sinh con
+
+Dân quốc du học trở về công Hạ Hoằng X Ôn nhu ẩn nhẫn nhân thê thụ Thẩm Hoài Thanh
+
+Sinh con sinh con sinh con!
+
+Đã có một đại bảo.
+
+Câu chuyện cưới trước yêu sau sáo rỗng chầm chậm phát hiện ra tôi yêu em.
+
+【Weibo：Dĩ Tư 2000＿】`, 
+        totalChapters: 3,
+        extras: 0
     }
 };
