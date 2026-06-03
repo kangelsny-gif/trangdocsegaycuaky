@@ -1,7 +1,7 @@
 const NOTIFICATIONS = [
-    { date: "29/05", tag: "HOT", text: "Ác Thú Vị - Chap 67", link: "read.html?id=truyen-22&chap=67" },
     { date: "30/05", tag: "HOT", text: "Ác Thú Vị - Chap 68", link: "read.html?id=truyen-22&chap=68" },
-    { date: "31/05", tag: "HOT", text: "Ác Thú Vị - Chap 69", link: "read.html?id=truyen-22&chap=69" }
+    { date: "31/05", tag: "HOT", text: "Ác Thú Vị - Chap 69", link: "read.html?id=truyen-22&chap=69" },
+    { date: "3/06", tag: "HOT", text: "Ác Thú Vị - Chap 70", link: "read.html?id=truyen-22&chap=70" }
 ];
 const DATA = {
     "truyen-1": { 
