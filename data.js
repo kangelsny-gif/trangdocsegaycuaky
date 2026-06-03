@@ -633,7 +633,7 @@ Bọn họ duy trì một loại quan hệ hôn môi đã không phải là bạ
 Nam giả cao lãnh và cún con si hán
 
 Thẩm Khâm Ngôn x Quan Miểu`, 
-        totalChapters: 69, 
+        totalChapters: 70, 
         extras: 0 
     },
     "truyen-23": { 
